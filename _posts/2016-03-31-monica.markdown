@@ -2,14 +2,32 @@
 layout: post
 title:  "Monica"
 date:   2016-03-31 23:33:56 -0400
+instagram: 
+city: Miami
+hometown: Poland
+quote: "Not everyone from Poland has blonde hair!"
+occupation: Student
 categories: 
 ---
+
+<div class="page-start" style="background-image: url('')">
+</div>
 
 <div class="image" style="position:relative; width:100%">
 <img src="/assets/mural.jpg" style="width:100%; border-radius: 20%">
     <h1 class="post-title" itemprop="name headline" style="position: absolute; top:30px; left:30px; width:100%; text-shadow: -1px 1px black;">
     {{ page.title }}
     </h1>
+    <h2 class="post-title" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
+    Lives in: {{ page.city }} <br>
+    Hometown: {{ page.hometown }}
+    </h2>
+    <p class="post-description" itemprop="name headline" style="position: absolute; top:150px; right:100px; width:40%; text-shadow: -1px 1px black;">
+    Quote: "{{ page.quote }}"
+    </p>
+    <div class="instagram">
+      <span>{{page.instagram}}<a href="#"><img src="/assets/instacandysm.png" style="border-radius: 20%; top:100px; position:absolute; right:100px"></a>
+    </div>
 </div>
 
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
