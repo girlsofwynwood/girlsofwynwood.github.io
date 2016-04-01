@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Monica"
+date:   2016-03-31 23:33:56 -0400
+categories: 
+---
+
+<div class="image" style="position:relative; width:100%">
+<img src="/assets/mural.jpg" style="width:100%; border-radius: 20%">
+    <h1 class="post-title" itemprop="name headline" style="position: absolute; top:30px; left:30px; width:100%; text-shadow: -1px 1px black;">
+    {{ page.title }}
+    </h1>
+</div>
+
+  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+<div class="image-list">
+  <img src="{{site.url}}assets/monica/1.jpg">
+  <img src="{{site.url}}assets/monica/2.jpg">
+  <img src="{{site.url}}assets/monica/3.jpg">
+  <img src="{{site.url}}assets/monica/4.jpg">
+</div>
