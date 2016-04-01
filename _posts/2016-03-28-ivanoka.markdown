@@ -2,6 +2,8 @@
 layout: post
 title:  "Ivanoka"
 date:   2016-03-30 23:33:56 -0400
+instagram: ivanoka88
 categories: 
 ---
 ![My helpful screenshot]({{ site.url }}/assets/ivanoka.jpg)
+<p class="post-meta">{{ post.instagram }}</p>
