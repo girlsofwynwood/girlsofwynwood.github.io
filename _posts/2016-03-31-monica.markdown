@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Monica"
+title:  "Monica!"
 date:   2016-03-31 23:33:56 -0400
 instagram: 
 city: Miami
