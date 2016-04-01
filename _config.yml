@@ -7,13 +7,13 @@
 
 # Site settings
 title: Girls of Wynwood
-email: hi@girlsofwynwood.com
+email: ryan@girlsofwynwood.com
 description: > # this means to ignore newlines until "baseurl:"
   Girls of Wynwood, Miami, Florida.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+url: "http://www.girlsofwynwood.com/" # the base hostname & protocol for your site
 twitter_username: girlsofwynwood
-github_username:  girlsofwynwood
+instagram_username: girlsofwynwood
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Monica"
+title:  "Monica!"
 date:   2016-03-31 23:33:56 -0400
 instagram: 
 city: Miami
@@ -9,6 +9,7 @@ quote: "Not everyone from Poland has blonde hair!"
 occupation: Student
 categories: 
 ---
+
 
 <div class="page-start" style="background-image: url('')">
 </div>
