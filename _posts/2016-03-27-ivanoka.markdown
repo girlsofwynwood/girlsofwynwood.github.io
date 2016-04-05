@@ -1,9 +1,45 @@
 ---
 layout: post
 title:  "Ivanoka"
-date:   2016-03-30 23:33:56 -0400
+date:   2016-03-27 23:33:56 -0400
 instagram: ivanoka88
 categories: 
+city: West Palm Beach
+hometown: Moscow
+quote: Strike while the iron's hot.
 ---
-![My helpful screenshot]({{ site.url }}/assets/ivanoka.jpg)
-<p class="post-meta">{{ post.instagram }}</p>
+
+
+
+<div class="page-start" style="background-image: url('{{site.url}}/assets/wynwoodwallcomp.jpg'); display:block">
+
+
+<div class="image" style="position:relative; display:block">
+<img src="/assets/mural.jpg" style="width:100%;">
+    <h1 class="post-title" itemprop="name headline">
+    {{ page.title }}
+    </h1>
+    <h2 class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
+    Lives in: {{ page.city }} <br>
+    Hometown: {{ page.hometown }}
+    </h2>
+    <p class="post-description" itemprop="name headline" style="position: absolute; top:150px; right:100px; width:40%; text-shadow: -1px 1px black;">
+    Quote: "{{ page.quote }}"
+    </p>
+<!--     <div class="instagram">
+      <span><a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
+    </div> -->
+</div>
+
+  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+<div class="image-list">
+  <img src="/assets/{{page.title}}/2.jpg">
+  <img src="/assets/{{page.title}}/3.jpg">
+  <img src="/assets/{{page.title}}/4.jpg">
+  <img src="/assets/{{page.title}}/5.jpg">
+  <img src="/assets/{{page.title}}/6.jpg">
+  <img src="/assets/{{page.title}}/7.jpg">
+  <img src="/assets/{{page.title}}/8.jpg">
+</div>
+</div>
