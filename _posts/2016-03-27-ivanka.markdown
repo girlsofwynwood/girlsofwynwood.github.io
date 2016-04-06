@@ -17,7 +17,7 @@ notes: A former NYC model and current wedding/fashion photographer, Ivanka's flu
 
 <div class="image" style="position:relative; width:100%">
 <img src="/assets/mural.jpg" style="width:100%;">
-    <h1 class="post-title fancy_title" itemprop="name headline">
+    <h1 class="post-title fancy_title" itemprop="name headline" style="text-transform:capitalize;">
     {{ page.title }}
     </h1>
     <div class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
@@ -34,19 +34,19 @@ notes: A former NYC model and current wedding/fashion photographer, Ivanka's flu
 
     </p>
     <div class="instagram">
-      <span>{{page.instagram}}<a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
+      <span><a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
     </div>
 </div>
 
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 
 <div class="image-list">
-  <img src="assets/ivanka/2.jpg">
-  <img src="assets/ivanka/3.jpg">
-  <img src="assets/ivanka/4.jpg">
-  <img src="assets/ivanka/5.jpg">
-  <img src="assets/ivanka/6.jpg">
-  <img src="assets/ivanka/7.jpg">
-  <img src="assets/ivanka/8.jpg">
-  <img src="assets/ivanka/1.jpg">
+  <img src="/assets/ivanka/2.jpg">
+  <img src="/assets/ivanka/3.jpg">
+  <img src="/assets/ivanka/4.jpg">
+  <img src="/assets/ivanka/5.jpg">
+  <img src="/assets/ivanka/6.jpg">
+  <img src="/assets/ivanka/7.jpg">
+  <img src="/assets/ivanka/8.jpg">
+  <img src="/assets/ivanka/1.jpg">
 </div>

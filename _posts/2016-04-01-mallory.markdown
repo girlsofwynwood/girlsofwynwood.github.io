@@ -14,7 +14,7 @@ notes: Mallory was perched on a Wynwood Walls 'sculpture' as seen in the first p
 
 <div class="image" style="position:relative; width:100%">
 <img src="/assets/mural.jpg" style="width:100%;">
-    <h1 class="post-title fancy_title" itemprop="name headline">
+    <h1 class="post-title fancy_title" itemprop="name headline" style="text-transform:capitalize;">
     {{ page.title }}
     </h1>
     <div class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
@@ -31,7 +31,7 @@ notes: Mallory was perched on a Wynwood Walls 'sculpture' as seen in the first p
 
     </p>
     <div class="instagram">
-      <span>{{page.instagram}}<a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
+      <span><a href="#"><img src="/assets/instagram_logo.png" style="top:100px; position:absolute; right:100px"></a>
     </div>
 </div>
 
