@@ -96,8 +96,25 @@ a {
   border-radius:15%;
 }
 
+.post-content {
+    margin-bottom: 30px;
+    display:block;
+    height: 300px;
+    margin-bottom: 30px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: -60px;
+}
 
+.page-content {
+      overflow-x: hidden;
+      background-attachment: fixed;
+      height:900px;
+}
 
+.page-start {
+      background-attachment: fixed;
+}
 
 
 @media screen and (min-width: 800px) {
@@ -278,8 +295,7 @@ body {
   padding: 0; margin: 0;
   font-family: "Open Sans Condensed", "Open Sans", "Droid Sans", sans-serif;
   font-size: 1.2em;
-  line-height: 1.7;
-  background: #208C8C;
+  background: black;
   color: #DFF7E5;
 }
 h1, h2 {
