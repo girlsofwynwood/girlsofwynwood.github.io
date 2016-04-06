@@ -38,8 +38,8 @@ notes: Mallory was perched on a Wynwood Walls 'sculpture' as seen in the first p
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 
 <div class="image-list">
-  <img src="/assets/{{page.title}}/2.jpg">
-  <img src="/assets/{{page.title}}/3.jpg">
+  <img src="/assets/mallory/2.jpg">
+  <img src="/assets/mallory/3.jpg">
   <img src="/assets/{{page.title}}/4.jpg">
   <img src="/assets/{{page.title}}/5.jpg">
   <img src="/assets/{{page.title}}/6.jpg">
