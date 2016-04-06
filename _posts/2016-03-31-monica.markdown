@@ -35,7 +35,7 @@ categories:
 
     </p>
     <div class="instagram">
-      <span><a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
+      <span><a href="#"><img src="/assets/instagram_logo.png" style="top:100px; position:absolute; right:100px; width:100px"></a>
     </div>
 </div>
 
