@@ -232,17 +232,20 @@
     text-shadow: -1px 1px black;
 }
 
-
 .post-filler {
     position: absolute;
     top: 58%;
     font-size: 1.8vw;
     text-align: center;
     margin-left: 40%;
-    width: 502px;
+    width: 652px;
     text-shadow: -1px 1px black;
     text-align: left;
+    color: white;
+    font-family: 'futura';
 }
+
+
 
 .post-content {
     margin-bottom: $spacing-unit;

@@ -22,9 +22,9 @@ notes: Mallory was perched on a Wynwood Walls 'sculpture' as seen in the first p
       <span style="line-height:2em">
         Lives in: {{ page.city }} <br>
         Hometown: {{ page.hometown }}<br>
-        Said: "{{ page.quote }}"<br>
+        Said: "{{ page.quote }}"<br><br>
       </span>
-        <span style="font-size:1.5vw; line-height:1px">Notes: {{ page.notes }}</span>
+        <span style="font-size:1.5vw; line-height:1px; width:900px">Notes: {{ page.notes }}</span>
       </div>
     </div>
     <p class="post-description" itemprop="name headline" style="position: absolute; top:150px; right:100px; width:40%; text-shadow: -1px 1px black;">

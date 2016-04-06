@@ -34,12 +34,12 @@ quote: Strike while the iron's hot.
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 
 <div class="image-list">
-  <img src="/assets/{{page.title}}/2.jpg">
-  <img src="/assets/{{page.title}}/3.jpg">
-  <img src="/assets/{{page.title}}/4.jpg">
-  <img src="/assets/{{page.title}}/5.jpg">
-  <img src="/assets/{{page.title}}/6.jpg">
-  <img src="/assets/{{page.title}}/7.jpg">
-  <img src="/assets/{{page.title}}/8.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/2.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/3.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/4.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/5.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/6.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/7.jpg">
+  <img src="{{site.url}}/assets/{{page.title}}/8.jpg">
 </div>
 </div>
