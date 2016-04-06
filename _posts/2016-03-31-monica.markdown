@@ -15,16 +15,22 @@ categories:
 </div>
 
 <div class="image" style="position:relative; width:100%">
-<img src="/assets/mural.jpg" style="width:100%; ">
-    <h1 class="post-title" itemprop="name headline">
+<img src="/assets/mural.jpg" style="width:100%;">
+    <h1 class="post-title fancy_title" itemprop="name headline">
     {{ page.title }}
     </h1>
-    <h2 class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
-    Lives in: {{ page.city }} <br>
-    Hometown: {{ page.hometown }}
-    </h2>
+    <div class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
+      <div class="post-filler">
+      <span style="line-height:2em">
+        Lives in: {{ page.city }} <br>
+        Hometown: {{ page.hometown }}<br>
+        Said: "{{ page.quote }}"<br><br>
+      </span>
+        <span style="font-size:1.5vw; line-height:1px; width:900px">Notes: {{ page.notes }}</span>
+      </div>
+    </div>
     <p class="post-description" itemprop="name headline" style="position: absolute; top:150px; right:100px; width:40%; text-shadow: -1px 1px black;">
-    Quote: "{{ page.quote }}"
+
     </p>
     <div class="instagram">
       <span>{{page.instagram}}<a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
@@ -32,6 +38,7 @@ categories:
 </div>
 
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
 
 <div class="image-list">
   <img src="/assets/monica/1.jpg">

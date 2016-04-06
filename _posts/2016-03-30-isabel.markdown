@@ -1,29 +1,35 @@
 ---
 layout: post
-title:  "isabel and hannah"
+title:  "isabel and Hannah"
 date:   2016-03-30 23:33:56 -0400
 categories: 
 ---
 
 
-<div class="page-start" style="background-image: url('{{site.url}}/assets/wynwoodwallcomp.jpg'); display:block">
+<div class="page-start" style="background-image: url('{{site.url}}/assets/mural.jpg')">
+</div>
 
-
-<div class="image" style="position:relative; display:block">
+<div class="image" style="position:relative; width:100%">
 <img src="/assets/mural.jpg" style="width:100%;">
-    <h1 class="post-title" itemprop="name headline">
+    <h1 class="post-title fancy_title" itemprop="name headline">
     {{ page.title }}
     </h1>
-    <h2 class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
-    Lives in: {{ page.city }} <br>
-    Hometown: {{ page.hometown }}
-    </h2>
+    <div class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
+      <div class="post-filler">
+      <span style="line-height:2em">
+        Lives in: {{ page.city }} <br>
+        Hometown: {{ page.hometown }}<br>
+        Said: "{{ page.quote }}"<br><br>
+      </span>
+        <span style="font-size:1.5vw; line-height:1px; width:900px">Notes: {{ page.notes }}</span>
+      </div>
+    </div>
     <p class="post-description" itemprop="name headline" style="position: absolute; top:150px; right:100px; width:40%; text-shadow: -1px 1px black;">
-    Quote: "{{ page.quote }}"
+
     </p>
-<!--     <div class="instagram">
-      <span><a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
-    </div> -->
+    <div class="instagram">
+      <span>{{page.instagram}}<a href="#"><img src="/assets/instacandysm.png" style="top:100px; position:absolute; right:100px"></a>
+    </div>
 </div>
 
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
@@ -33,6 +39,5 @@ categories:
   <img src="/assets/isabel/3.jpg">
   <img src="/assets/isabel/4.jpg">
   <img src="/assets/isabel/5.jpg">
-  <img src="/assets/isabel/1.jpg">
-</div>
+  <img src="/assets/{{page.title}}/1.jpg">
 </div>
