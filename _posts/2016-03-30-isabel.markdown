@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Isabel and Hannah"
+title:  "isabel and hannah"
 date:   2016-03-30 23:33:56 -0400
 categories: 
 ---

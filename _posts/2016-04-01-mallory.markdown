@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mallory"
+title:  "mallory"
 date:   2016-04-01 23:33:56 -0400
 categories: 
 city: Miami
