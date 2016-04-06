@@ -3,6 +3,9 @@ layout: post
 title:  "isabel and hannah"
 date:   2016-03-30 23:33:56 -0400
 categories: 
+city: Miami & Switzerland
+notes: Isabel and Hannah can be credited with inspiring the blog. While I was tossing around the idea of a Wynwood photography blog over an Americano, Isabel and Hannah sat down for lunch. Obviously, they looked incredible. When they flipped through the visitor's book, I had to get a photo. They were exceptionally sweet and naturals in front of the camera.
+met: Dr Smood
 ---
 
 
@@ -11,15 +14,14 @@ categories:
 
 <div class="image" style="position:relative; width:100%">
 <img src="/assets/mural.jpg" style="width:100%;">
-    <h1 class="post-title fancy_title" itemprop="name headline" style="text-transform:uppercase;">
+    <h1 class="post-title fancy_title" itemprop="name headline" style="text-transform:capitalize;">
     {{ page.title }}
     </h1>
     <div class="post-content" itemprop="name headline" style="position: absolute; top:50px; left:30px; width:100%; text-shadow: -1px 1px black;">
       <div class="post-filler">
       <span style="line-height:2em">
         Lives in: {{ page.city }} <br>
-        Hometown: {{ page.hometown }}<br>
-        Said: "{{ page.quote }}"<br><br>
+        Met at: {{page.met}}<br><br>
       </span>
         <span style="font-size:1.5vw; line-height:1px; width:900px">Notes: {{ page.notes }}</span>
       </div>
