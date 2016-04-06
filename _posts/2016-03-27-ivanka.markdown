@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Ivanoka"
+title:  "ivanka"
 date:   2016-03-27 23:33:56 -0400
-instagram: ivanoka88
+instagram: ivankaivanova88
 categories: 
 city: West Palm Beach
 hometown: Moscow

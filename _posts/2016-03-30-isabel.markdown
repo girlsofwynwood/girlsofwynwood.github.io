@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Isabel and Hannah"
+title:  "isabel and hannah"
 date:   2016-03-30 23:33:56 -0400
 categories: 
 ---
@@ -29,12 +29,10 @@ categories:
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 
 <div class="image-list">
-  <img src="/assets/{{page.title}}/2.jpg">
-  <img src="/assets/{{page.title}}/3.jpg">
-  <img src="/assets/{{page.title}}/4.jpg">
-  <img src="/assets/{{page.title}}/5.jpg">
-  <img src="/assets/{{page.title}}/6.jpg">
-  <img src="/assets/{{page.title}}/7.jpg">
-  <img src="/assets/{{page.title}}/8.jpg">
+  <img src="/assets/isabel/2.jpg">
+  <img src="/assets/isabel/3.jpg">
+  <img src="/assets/isabel/4.jpg">
+  <img src="/assets/isabel/5.jpg">
+  <img src="/assets/isabel/1.jpg">
 </div>
 </div>
