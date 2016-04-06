@@ -4,9 +4,10 @@ title:  "ivanka"
 date:   2016-03-27 23:33:56 -0400
 instagram: ivankaivanova88
 categories: 
-city: West Palm Beach
+city: Boynton Beach
 hometown: Moscow
-quote: Strike while the iron's hot.
+quote: I think the government knew about 9/11.
+notes: A former NYC model and current wedding/fashion photographer, Ivanka's fluid and gifted in the presence of a camera. According to her, capturing her smile in a picture is rare, so cherish the rare moment.
 ---
 
 

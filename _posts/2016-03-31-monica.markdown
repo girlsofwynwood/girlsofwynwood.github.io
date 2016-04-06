@@ -6,7 +6,8 @@ instagram:
 city: Miami
 hometown: Poland
 quote: "Not everyone from Poland has blonde hair!"
-occupation: Student
+notes: Monica and her friend Olivia were shy, at first she didn't want her photo taken. I quickly explained all she had to do was what she already was! Captured moments look best when they're exactly that - moments - not staged and posed. They opened up and were talkative once I showed the blog.
+location: Panther Coffee
 categories: 
 ---
 
@@ -24,7 +25,8 @@ categories:
       <span style="line-height:2em">
         Lives in: {{ page.city }} <br>
         Hometown: {{ page.hometown }}<br>
-        Said: "{{ page.quote }}"<br><br>
+        Said: "{{ page.quote }}"<br>
+        Met at: {{ page.location }}<br>
       </span>
         <span style="font-size:1.5vw; line-height:1px; width:900px">Notes: {{ page.notes }}</span>
       </div>
