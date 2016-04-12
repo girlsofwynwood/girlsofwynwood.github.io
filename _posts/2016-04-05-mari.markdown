@@ -1,16 +1,13 @@
 ---
 layout: post
-title:  "ivanka"
-date:   2016-03-27 23:33:56 -0400
-instagram: ivankaivanova88
+title:  "mari"
+date:   2016-04-05 23:33:56 -0400
 categories: 
-city: Boynton Beach
-hometown: Moscow
-quote: I think the government knew about 9/11.
-notes: A former NYC model and current wedding/fashion photographer, Ivanka's fluid and gifted in the presence of a camera. According to her, capturing her smile in a picture is rare, so cherish the rare moment.
+city: Changes by the day
+hometown: Amsterdam, Netherlands
+quote: 
+notes: A distinguished traveler with over 50 countries visited and the past year spent backpacking through the likes of cross-country USA, Europe (inluding off-beaten-path places like Serbia, Bosnia, Croatia), Russia, Australia, and many more. Manon prefers speaking English to her native Dutch and enjoys the persona behind the tongue. Her love for America is heartwarming, she wants a job and a home base in Florida, NYC, or California - good taste!
 ---
-
-
 
 <div class="page-start" style="background-image: url('{{site.url}}/assets/mural.jpg')">
 </div>
@@ -25,7 +22,6 @@ notes: A former NYC model and current wedding/fashion photographer, Ivanka's flu
       <span style="line-height:2em">
         Lives in: {{ page.city }} <br>
         Hometown: {{ page.hometown }}<br>
-        Said: "{{ page.quote }}"<br><br>
       </span>
         <span style="font-size:1.5vw; line-height:1px; width:900px">Notes: {{ page.notes }}</span>
       </div>
@@ -41,12 +37,9 @@ notes: A former NYC model and current wedding/fashion photographer, Ivanka's flu
   <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 
 <div class="image-list">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/2.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/3.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/4.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/5.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/6.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/7.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/8.jpg" style="padding: 2px;">
-  <img src="http://www.girlsofwynwood.com/assets/ivanka/1.jpg">
+  <img src="/assets/{{page.title}}/2.jpg">
+  <img src="/assets/{{page.title}}/3.jpg">
+  <img src="/assets/{{page.title}}/4.jpg">
+  <img src="/assets/{{page.title}}/5.jpg">
+  <img src="/assets/{{page.title}}/6.jpg">
 </div>
